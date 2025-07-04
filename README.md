@@ -20,10 +20,13 @@ A smart Python utility that monitors your clipboard for shell commands (like git
 
 📦 **Requirements**
 Install dependencies using pip:
+
 pip install pyperclip pygetwindow pymsgbox pyautogui psutil
+
 pip install pystray pillow
 
 🚀 **How It Works**
+
 1.Copy a shell command to clipboard
 
 2.You'll be prompted: "Do you want to run this command?"
