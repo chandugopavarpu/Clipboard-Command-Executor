@@ -1,7 +1,7 @@
 # Clipboard-Command-Executor (Smart Shell Integration)
 A smart Python utility that monitors your clipboard for shell commands (like git, npm, python, etc.) and prompts you to execute them in your preferred Command Prompt window. Includes features like terminal selection, typo correction, command safety checks, duplicate prevention, and execution logging.
 
-✨ Features
+✨ **Features**
 ✅ Clipboard Monitoring – Watches clipboard for likely shell commands
 
 ⚡ Smart Suggestions – Auto-corrects small typos in known commands
@@ -18,34 +18,26 @@ A smart Python utility that monitors your clipboard for shell commands (like git
 
 🧲 System Tray Support – Easily pause/resume via tray icon (optional)
 
-📦 Requirements
+📦 **Requirements**
 Install dependencies using pip:
-
-bash
-Copy
-Edit
 pip install pyperclip pygetwindow pymsgbox pyautogui psutil
-Optional (for tray icon):
-
-bash
-Copy
-Edit
 pip install pystray pillow
-🚀 How It Works
-Copy a shell command to clipboard
 
-You'll be prompted: "Do you want to run this command?"
+🚀 **How It Works**
+1.Copy a shell command to clipboard
 
-If accepted, it checks for existing CMD windows
+2.You'll be prompted: "Do you want to run this command?"
 
-You can:
+3.If accepted, it checks for existing CMD windows
 
-Select an existing window
+4.You can:
 
-Leave blank to open a new terminal
+   Select an existing window
 
-Cancel to abort
+   Leave blank to open a new terminal
 
-The command is validated, optionally corrected, and executed
+   Cancel to abort
 
-Every command is logged in a file (command_log.txt)
+5.The command is validated, optionally corrected, and executed
+
+6.Every command is logged in a file (command_log.txt)
