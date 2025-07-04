@@ -1,5 +1,4 @@
-# Clipboard-Command-Executor
-Clipboard Command Executor (Smart Shell Integration)
+# Clipboard-Command-Executor (Smart Shell Integration)
 A smart Python utility that monitors your clipboard for shell commands (like git, npm, python, etc.) and prompts you to execute them in your preferred Command Prompt window. Includes features like terminal selection, typo correction, command safety checks, duplicate prevention, and execution logging.
 
 ✨ Features
