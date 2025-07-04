@@ -19,6 +19,7 @@ A smart Python utility that monitors your clipboard for shell commands (like git
 🧲 System Tray Support – Easily pause/resume via tray icon (optional)
 
 📦 **Requirements**
+
 Install dependencies using pip:
 
 pip install pyperclip pygetwindow pymsgbox pyautogui psutil
